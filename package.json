@@ -1,0 +1,17 @@
+{
+  "name": "MonoIFSG",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "marinagustint <marina.a@accionlabs.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/mobile/**",
+      "**/web/**"
+    ]
+  }
+}
