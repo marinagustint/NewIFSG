@@ -20,7 +20,7 @@
     "ios": "cd packages/mobile && react-native run-ios",
     "web": "cd packages/web && react-app-rewired start",
     "start": "cd packages/mobile && react-native start",
-    "test": "jest",
+    "test": "cd packages/mobile/ &&  yarn test && cd packages/web && yarn test",
     "lint": "cd packages/mobile/ && yarn lint && cd ../common/ && yarn lint && cd ../web/ && yarn lint",
     "delete_node_modules": "rm -rf node_modules/  yarn.lock  packages/web/node_modules/ packages/mobile/node_modules/ packages/common/node_modules"
   },
@@ -31,7 +31,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint",
-      "pre-push": "yarn lint && yarn test"
+      "pre-push": "yarn lint"
     }
   }
 }
