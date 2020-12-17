@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
-import React from "react";
-import "./App.css";
-import HomeScreenWeb from "@ifsg/common/screens/HomeScreenWeb";
+import React from 'react';
+import './App.css';
+import HomeScreenWeb from '@ifsg/common/screens/HomeScreenWeb';
 
 function App() {
   return (
