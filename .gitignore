@@ -1,3 +1,11 @@
+# misc
+.DS_Store
+
+#error log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 node_modules/**
 packages/mobile/node_modules/**
 packages/web/node_modules/**

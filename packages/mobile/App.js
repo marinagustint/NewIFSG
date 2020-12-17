@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View, SafeAreaView} from 'react-native';
+import {View, SafeAreaView} from 'react-native';
 import HomeScreen from '@ifsg/common/screens/HomeScreen';
 
 const App = () => {
@@ -13,5 +13,3 @@ const App = () => {
 };
 
 export default App;
-
-const styles = StyleSheet.create({});

@@ -1,10 +1,10 @@
 import React from "react";
-import { StyleSheet, Text, View, SafeAreaView } from "react-native";
+import { Text, View } from "react-native";
 
 const HomeScreen = () => {
   return (
     <View>
-      <Text>Mobile</Text>
+      <Text>Mobile IFSG walk through On Mobile Mobile</Text>
       <Text>Welcome To Imaginovation Fintech Solutions Group !!! </Text>
       <Text> This is to test from common directory</Text>
     </View>
@@ -12,5 +12,3 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-const styles = StyleSheet.create({});

@@ -9,9 +9,9 @@
 const path = require('path');
 
 const extraNodeModules = {
-  common: path.resolve(__dirname + '/../common'),
+  common: path.join(__dirname, '/../common'),
 };
-const watchFolders = [path.resolve(__dirname + '/../common')];
+const watchFolders = [path.join(__dirname, '/../common')];
 // Added for Inlcuding common folder
 
 module.exports = {
